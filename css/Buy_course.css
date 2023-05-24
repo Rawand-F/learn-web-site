@@ -1,0 +1,94 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/* navbar Style*/
+
+.navbar {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 3 ;
+    
+}
+
+.bg-light {
+    background-color: #4a74ae !important;
+}
+.navbar-brand{
+    color: white !important;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navbar-nav a{
+    color: rgb(235, 230, 230) !important; 
+    font-size: 18px;
+}
+
+.navbar-nav a:hover{
+    color: rgb(252, 246, 246) !important; 
+}
+.active a{
+    color: white !important;
+}
+
+/*End navbar Style*/
+
+/* Start buy_form Style*/
+.buy_form_Section{
+    margin: 150px 0px;
+}
+.description h1 {
+    margin-bottom: 30px;
+}
+.description p {
+    line-height: 30px;
+    color: rgb(78, 77, 77);
+}
+
+.form{
+    padding: 30px 0px 0px 70px;
+    
+}
+/* End buy_form Style*/
+/*Start footer Section*/
+.footer-section h4 {
+    font-weight: bold;
+    margin: 40px 0px;
+    color: white;
+ }
+ .footer-section p {
+     color: #d9dbdf;
+ }
+ .footer-section ul li{
+     list-style-type: none;
+     margin-left: -33px;
+     color: #d9dbdf;
+     line-height: 35px;
+ }
+ .footer-section ul li:hover{
+     color: white;
+ }
+ .contact i{
+     color: #f0f0f7;
+     font-size: 30px;
+     margin:  5px 5px 40px 5px;
+     transition: 0.5s;;
+ }
+ .call i{
+     color: white;
+     float: left;
+     margin-right: 10px;
+ }
+ 
+ .contact i:hover{
+     color: #3e33b8;
+ }
+ .footer-section{
+     
+     background-image: linear-gradient( 130deg, #cc30cc 30%,#562be2b5); 
+ }
+ /*End footer Section*/

@@ -1,0 +1,215 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* navbar Style*/
+
+.navbar1 {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 3 ;
+    
+}
+
+.bg-light {
+    background-color: #4a74ae !important;
+}
+.navbar-brand{
+    color: white !important;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navbar-nav a{
+    color: rgb(235, 230, 230) !important; 
+    font-size: 18px;
+}
+
+.navbar-nav a:hover{
+    color: rgb(252, 246, 246) !important; 
+}
+.active a{
+    color: white !important;
+}
+
+/*End navbar Style*/
+
+/*navbar 2 Style*/
+
+.navnar2{
+    margin-top: 70px;
+    background-color: white !important;
+}
+.User-img {
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-image: url(../imgs/student3.jpg);
+    margin-right: 10px;
+}
+.active2 a{
+    color: blue !important;
+}
+.active2 a:hover{
+    color: rgb(4, 4, 172) !important;
+}
+.progress{
+    float: right;
+    min-width: 500px;
+}
+/*end navbar2 Style */
+
+
+/*left section style */
+.My-stuff{
+    margin-top: 40px;
+}
+.My-stuff li{
+
+    list-style-type: none;
+    margin: 15px -5px;
+    font-weight: bold;
+}
+.My-stuff li a{
+    
+    text-decoration: none;
+    color: darkslategray;
+    transition: 0.8s;
+    color: rgb(102, 100, 100);
+
+}
+.My-stuff li a:hover {
+    margin-left: 3px;
+    color: black;
+}
+
+.activ{
+    margin-left: 3px !important;
+    color: black !important;
+}
+
+/* start video section style*/
+h2 {
+    text-align: center;
+    margin: 15px;
+    color: #2980b9;
+}
+h4 {
+    color: darkslategray;
+    font-size: 20px;
+}
+.main-video .video{
+    background-color: rgb(226, 223, 223);
+    border-radius: 5px;
+    padding: 10px;
+}
+.main-video .video video{
+    width: 100%;
+    border-radius: 5px;
+}
+.video-list h4 {
+    color: darkslategray;
+    font-size: 15px;
+}
+.first-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+    gap: 15px;
+    align-self: flex-start;
+    padding: 5px - 5%;
+}
+.video-list{
+    background-color: #fff;
+    border-radius: 5px;
+    height: 420px;
+    overflow-y: scroll;  
+}
+.video-list::-webkit-scrollbar {
+    width:  7px;
+}
+.video-list::-webkit-scrollbar-track {
+   background-color: #ccc;
+   border-radius: 50px;
+}
+.video-list::-webkit-scrollbar-thumb {
+    background-color: #666;
+    border-radius: 50px;
+ }
+.video-list .vid video {
+    width: 100px;
+    border-radius: 5px;
+}
+.video-list .vid:hover {
+   background-color: #eee;
+}
+.video-list .active {
+    background-color: #2980b9 !important;
+}
+.video-list .active h4 {
+   color: white !important;
+}
+.video-list .vid {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    margin: 1px;
+    padding: 7px;
+    border: solid 1px rgba(0, 0, 0, 0.1);
+}
+@media (max-width:991px){
+    .first-container{
+    grid-template-columns: 1.5fr 1fr;
+    padding: 10px;
+    }
+}
+@media (max-width:768px){
+    .first-container{
+    grid-template-columns: 1fr;
+   
+    }
+}
+
+/*end video section style */
+.quiz-div {
+    border: solid 1px rgb(106, 141, 180);
+    padding: 15px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: #eee;
+    width: 800px;
+    line-height: 20px;
+   
+}
+.quiz-div h3 {
+    color: blue;
+   
+}
+.quiz-div p{
+    color: rgb(71, 69, 69);
+    font-weight: bold;
+    max-width: 600px;
+}
+.quiz-div span{
+    color: rgb(71, 69, 69);
+    font-weight: bold;
+}
+.quiz-div i {
+    position: relative;
+    
+   bottom: 20px;
+    color: #2980b9;
+}
+.quiz-div a{
+    text-decoration: none;
+    font-weight: bold;  
+}
+.start{
+    float: right;
+}

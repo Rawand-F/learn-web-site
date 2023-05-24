@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/Buy_course.css">
+    <link rel="icon" href="imgs/logo.png">
+    
+    <title>Stairs website</title>
+
+    <!--[if lt IE 9]-->
+    <script src="JS/html5shiv.min.js"></script>
+    <script src="JS/respond.min.js"></script>
+    <!--[endif]-->
+</head>
+<body>
+
+    <!--Start navbar-->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container"> 
+      <a class="navbar-brand" href="main.html">Stairs</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="main-nav">
+          <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+              <a class="nav-link" href="Home.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="courses.html">Courses</a>
+          </li>
+          <li class="nav-item active">
+              <a class="nav-link" href="Buy_course.html">Buy Course</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+          </li> 
+          </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--End navbar-->
+
+  <!--Start form Sectoin-->
+  <section class="buy_form_Section">
+    <div class="container">
+      <div class="row">
+          <div class="col-lg-4 col-md-3 col-sm-12 description">
+              <h1>Pay in installments</h1>
+              <p>You can get discounts when choosing more than one course to buy,
+                in addition to the possibility of paying the price of the course before receiving the certificate or in installments during the course of studying the course, but you will not be able to obtain the course certificate before completing the payment of its fees.
+              </p>
+          </div>
+          <div class="col-lg-8 col-md-9 col-sm-12 form">
+
+            <form class="needs-validation" novalidate>
+              <div class="form-row">
+                <div class="col-md-4 mb-3">
+                  <label for="validationCustom01">First name</label>
+                  <input type="text" class="form-control" id="validationCustom01"  value="" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="validationCustom02">Last name</label>
+                  <input type="text" class="form-control" id="validationCustom02"  value="" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+
+              </div>
+              <div class="form-row">
+                <div class="col-md-6 mb-3">
+                  <label for="validationCustom03">City</label>
+                  <input type="text" class="form-control" id="validationCustom03" required>
+                  <div class="invalid-feedback">
+                    Please provide a valid city.
+                  </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                  <label for="validationCustom04">Bank account number</label>
+                  <input type="text" class="form-control" id="validationCustom04"  required>
+                  <div class="invalid-feedback">
+                    Please provide a valid Bank account number.
+                  </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                  <label for="validationCustom05">The amount paid</label>
+                  <input type="text" class="form-control" id="validationCustom05" required>
+                  <div class="invalid-feedback">
+                    Please provide an amount paid.
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                  <label class="form-check-label" for="invalidCheck">
+                      The entered data has been verified
+                  </label>
+                  <div class="invalid-feedback">
+                      You must verify the data entered
+                  </div>
+                </div>
+              </div>
+              <button class="btn btn-primary" type="submit">Pay</button>
+            </form>
+                
+            <script>
+              // Example starter JavaScript for disabling form submissions if there are invalid fields
+              (function() {
+                'use strict';
+                window.addEventListener('load', function() {
+                  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                  var forms = document.getElementsByClassName('needs-validation');
+                  // Loop over them and prevent submission
+                  var validation = Array.prototype.filter.call(forms, function(form) {
+                    form.addEventListener('submit', function(event) {
+                      if (form.checkValidity() === false) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                      }
+                      form.classList.add('was-validated');
+                    }, false);
+                  });
+                }, false);
+              })();
+            </script>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <!--End form Sectoin-->
+  <!--Start Footer-->
+  <footer class="footer-section">
+    <div class="container">
+      <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+          <h4>About</h4>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat iure voluptates ducimus,
+              repellat asperiores ad, velit, vero pariatur 
+              alias debitis sunt deserunt quisquam recusandae. Dolores, quis ab. Illo, similique voluptatum.</p>
+              <div class="contact">
+              <i class="fa fa-twitter-square" aria-hidden="true"></i>
+              <i class="fa fa-facebook-official" aria-hidden="true"></i>
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+          <h4>Help Desk</h4>
+          <ul>
+              <li><a>Customer Care</a></li>
+              <li><a>Services</a></li>
+              <li><a>Legal Help</a></li>
+              <li><a>Privacy and Policy</a></li>
+              <li><a>Refund Policy</a></li> 
+          </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+          <h4>Recent Courses</h4>
+          <ul>
+              <li><a>Computer Engineering</a></li>
+              <li><a>Web Design</a></li>
+              <li><a>Business Studies</a></li>
+              <li><a>Civil Engineering</a></li>
+              <li><a>Computer Technician</a></li>
+          </ul> 
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 call">
+          <h4>Have a Questions?</h4>
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <p>08773839000</p>
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <p>sjdkd@gmail.com</p>
+          </div>
+      </div>
+    </div>
+  </footer>
+  <!--End Footer-->
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

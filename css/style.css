@@ -1,0 +1,477 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/* navbar Style*/
+
+.navbar{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 3 ;
+    
+}
+
+.bg-light {
+    background-color: #4a74ae !important;
+}
+.navbar-brand{
+    color: white !important;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navbar-nav a{
+    color: rgb(235, 230, 230) !important; 
+    font-size: 18px;
+}
+
+.navbar-nav a:hover{
+    color: rgb(252, 246, 246) !important; 
+}
+.active a{
+    color: white !important;
+}
+
+/*End navbar Style*/
+
+/* Start first section*/
+.Login-section{ 
+    margin-top: 60px;
+    background: fixed;
+    background-image: url(../imgs/le.jpg) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+/* right part */
+
+.introduction-part{
+    padding: 30px 0px 30px 0px;
+    color: white;
+    
+    
+}
+.introduction-part p {
+    margin: 40px 0px ;
+    font-size: 18px;
+}
+
+.introduction-part h1{
+    font-size: 50px;
+}
+
+.main-links a {
+   
+    padding: 8px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: #1371be;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    transition-duration: 0.5s;
+}
+.main-links a:hover{  
+    color:  #0069be;
+    background-color: white;
+}
+
+/*left pert*/ 
+
+.log-in{ 
+    background-color: aliceblue;
+    padding: 25px 55px;
+    color: #493fca;
+    flex-flow: column;
+    height:500px ;
+    
+}
+.log-in h3{
+    font-size:30px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 13px;
+    border: solid #6a61eb 1px;
+    border-radius: 40px;
+    outline: none;
+}
+.sing-in {
+  
+    font-size: 18px;
+    text-align: center;
+    padding-top: 40px;
+    background-color: #dbd9ee;
+    height: 100px;
+    position: absolute;
+    width: 100%;
+    left: -0.5px;
+    top: 420px;
+    border-radius: 10px;
+    border-top-left-radius: 147px;
+}
+
+.sing-in a {
+    text-decoration: none;
+    margin-left: 7px;
+}
+
+/*pop-up Style */
+
+.modal-body input{
+    width: 440px;
+    align-items: center;
+    padding: 10px;
+    margin: 13px 0px;
+    border: solid #6a61eb 1px;
+    border-radius: 40px;
+    outline: none;
+
+}
+
+/*pop-up Style*/
+
+/* Start section 2*/
+
+.course-section{
+    padding: 130px;
+}
+
+.course-section>p {
+    color: #2219a0;
+    margin: 30px;
+    font-weight: bold;
+}
+.course-section>h2 {
+    margin: 50px;
+    font-weight: bold;
+}
+
+.img1 ,.img2 ,.img3 ,.img4 ,.img5 ,.img6 {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background-size: cover;
+    transition: 0.5s;
+}
+.img1:hover,.img2:hover,.img3:hover,.img4:hover,.img5:hover,.img6:hover{  
+    box-shadow:  #999faa 0px 0px 5px 2px;
+}
+.img1 {
+    background-image: url(../imgs/le.jpg) ;
+}
+
+.img2 {
+    background-image: url(../imgs/Photography.jpg) ;
+}
+.img3 {
+    background-image: url(../imgs/calc.jpg) ;
+    
+}
+.img4 {
+    background-image: url(../imgs/log.jpg) ;
+}
+.img5 {
+    background-image: url(../imgs/odio.jpg) ;
+}
+.img6 {
+    background-image: url(../imgs/helth.jpg) ; 
+}
+
+.course-name{
+    padding-bottom: 20px;
+}
+.course-name p{
+    font-weight: bold;
+    color: #2219a0;
+    padding-top: 15px;
+    margin: 0;
+}
+.course-name span{
+    color: #666c77;
+    font-size: 15px;
+    
+}
+a.course-link2{
+    text-decoration: none;
+    padding: 8px;
+    color: white;
+    background-color: #1371be;
+    border: none;
+    border-radius: 8px;
+}
+
+/* end section 2*/
+
+/* Start Section 3*/
+
+.statistics-section{
+    background: fixed;
+    background-image:url(../imgs/statistics.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 300px;
+}
+
+.statistics-section .data{
+    background-color:#485a8d63;
+    color: #dfd9d9;
+    min-height: 300px;
+    padding-top: 95px;
+}
+.statistics-section .data .stat:hover{   
+    color: #fffbfb;
+}
+.statistics-section .data .stat{
+    transition-duration: 0.5s;
+    margin-bottom: 40px;
+}
+.statistics-section .data p{
+    font-size: 30px;
+    font-weight: 500px;
+    margin-bottom: 0;
+}
+.statistics-section .data .stat span{
+    margin: 30px;
+    font-size: 15px;
+}
+
+/*end Section 3*/
+/*Start Section 4*/
+.contact-link-page{
+    padding: 80px 20px;
+}
+.contact-img1 ,.contact-img2{
+
+    height: 320px;
+    width: 340px;
+    border: solid 13px rgb(236, 238, 240);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-img1{
+    background-image: url(../imgs/log.jpg);
+}
+.contact-img2{
+    background-image: url(../imgs/login.jpg); 
+    top: 170px;
+    left: 100px;
+}
+.img-contact{
+    height: 500px;
+}
+.explain h5 {
+    color: #2219a0;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.explain h2 {
+   
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.explain p{
+    font-size: 20px;
+    margin-bottom: 50px;
+   line-height: 37px;
+}
+a.contact-link{
+    text-decoration: none;
+    padding: 8px;
+    color: white;
+    background-color: #1371be;
+    border: none;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+/*end Section 4*/
+/*Start Section 5*/
+
+.Testimonials{
+    background-color: rgba(236, 240, 245, 0.39);
+}
+.Testimonials h2{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.Testimonials1 , .Testimonials2 ,.Testimonials3 , .Testimonials4 ,
+.Testimonials5 , .Testimonials6 , .Testimonials7 , .Testimonials8 {
+
+    max-width: 280px;
+    min-height: 260px;
+    background-color: rgb(227, 230, 233);
+    border: solid 2px rgb(251, 252, 253);
+    border-radius: 7px;
+    padding: 15px;
+    margin: 5px;
+    color: #666c77;
+    
+}
+.imgs-student1 , .imgs-student2, .imgs-student3, .imgs-student4, .imgs-student5, .imgs-student6,
+.imgs-student7, .imgs-student8 {
+    
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+.imgs-student1 {
+
+    background-image: url(../imgs/student1.jpg);
+
+}
+.imgs-student2{
+
+    background-image: url(../imgs/student2.jpg);
+
+}
+.imgs-student3{
+
+    background-image: url(../imgs/student3.jpg);
+
+}
+.imgs-student4{
+
+    background-image: url(../imgs/student4.jpg);
+
+}
+.imgs-student5{
+
+    background-image: url(../imgs/student1.jpg);
+
+}
+.imgs-student6{
+
+    background-image: url(../imgs/student2.jpg);
+
+}
+.imgs-student7{
+
+    background-image: url(../imgs/student3.jpg);
+}
+.imgs-student8{
+
+    background-image: url(../imgs/student4.jpg);
+}
+.name{
+   padding-top: 15px;
+   color: #0b0b0b;
+}
+.name p {
+    font-size: larger;
+    margin: 0%;
+    font-weight: bold;
+    color: #1b147e;  
+}
+
+/*end section 5*/
+/*Start Section 6*/
+/*Right bar*/
+.Site-services{
+    padding: 70px 25px;
+}
+.description .outer{
+    color: #2219a0;
+    font-size: 15px;
+    font-weight: bold;
+}
+.description h2{
+    
+    font-weight: bold;
+    line-height: 45px;
+    margin: 40px 0px;
+}
+.description .iner{
+    
+    font-size: 20px;
+    color: #666c77;
+
+}
+/*left bar*/
+
+.Services1 , .Services2 , .Services3 , .Services4{
+    float: left;
+    height: 200px;
+    width: 260px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: #f3f3f3 0px 0px 5px 2px;
+    overflow: hidden;
+}
+
+.Services2 , .Services4{
+    float: right;
+}
+.Services1 i , .Services2 i, .Services3 i, .Services4 i{
+    font-size: 35px;
+    padding: 17px 0px;
+}
+.Services1 i{
+    color: #7fcc27;
+}
+
+.Services2 i{
+    color: #2219a0;
+}
+.Services3 i{
+    color: rgb(224, 65, 2);
+}
+.Services1 p , .Services2 p, .Services3 p, .Services4 p{
+    color: #666c77;
+}
+
+
+/*end section 6*/
+
+/*Start footer Section*/
+.footer-section h4 {
+   font-weight: bold;
+   margin: 40px 0px;
+   color: white;
+}
+.footer-section p {
+    color: #d9dbdf;
+}
+.footer-section ul li{
+    list-style-type: none;
+    margin-left: -33px;
+    color: #d9dbdf;
+    line-height: 35px;
+}
+.footer-section ul li:hover{
+    color: white;
+}
+.contact i{
+    color: #f0f0f7;
+    font-size: 30px;
+    margin:  5px 5px 40px 5px;
+    transition: 0.5s;;
+}
+.call i{
+    color: white;
+    float: left;
+    margin-right: 10px;
+}
+
+.contact i:hover{
+    color: #3e33b8;
+}
+.footer-section{
+    
+    background-image: linear-gradient( 130deg, #cc30cc 30%,#562be2b5); 
+}
+/*End footer Section*/
